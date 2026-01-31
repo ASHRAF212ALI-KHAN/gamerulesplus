@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "gamerulesplus",
+  "version": "1.0.0",
+  "name": "Gamerules Plus",
+  "description": "Adds gamerules for villager & animal breeding, growth, and spawner delay",
+  "authors": ["Ashraf"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.gamerulesplus.GamerulesPlus"]
+  },
+  "mixins": ["gamerulesplus.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.11"
+  }
+}
